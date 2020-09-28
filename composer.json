@@ -10,22 +10,5 @@
             "homepage": "https://getit-berlin.de"
         }
     ],
-    "minimum-stability": "stable",
-    "require":{
-        "twbs/bootstrap": "~3.3",
-        "slowprog/composer-copy-file": "~0.3"
-    },
-    "scripts": {
-        "post-install-cmd": [
-            "SlowProg\\CopyFile\\ScriptHandler::copy"
-        ],
-        "post-update-cmd": [
-            "SlowProg\\CopyFile\\ScriptHandler::copy"
-        ]
-    },
-    "extra": {
-        "copy-file": {
-            "storage/templates/": "../../../storage/templates/"
-        }
-    }
+    "minimum-stability": "stable"
 }
