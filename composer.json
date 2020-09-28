@@ -25,7 +25,7 @@
     },
     "extra": {
         "copy-file": {
-            "storage/templates/": "../../storage/templates/"
+            "storage/templates/": "../../../storage/templates/"
         }
     }
 }
