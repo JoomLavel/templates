@@ -1,0 +1,17 @@
+{
+    "name": "joomlavel/templates",
+    "description": "Joomla component templates for JoomLavel ecosystem",
+    "type": "package",
+    "license": "mit",
+    "authors": [
+        {
+            "name": "Jakub Walczak",
+            "email": "walczak@getit-berlin.de",
+            "homepage": "https://getit-berlin.de"
+        }
+    ],
+    "minimum-stability": "stable",
+    "config": {
+        "vendor-dir": "../../"
+    }
+}
