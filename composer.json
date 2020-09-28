@@ -12,6 +12,6 @@
     ],
     "minimum-stability": "stable",
     "config": {
-        "vendor-dir": "../storage/templates"
+        "vendor-dir": "ven"
     }
 }
