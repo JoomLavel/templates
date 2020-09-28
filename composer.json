@@ -11,7 +11,21 @@
         }
     ],
     "minimum-stability": "stable",
-    "config": {
-        "vendor-dir": "ven"
+    "require":{
+        "twbs/bootstrap": "~3.3",
+        "slowprog/composer-copy-file": "~0.3"
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "SlowProg\\CopyFile\\ScriptHandler::copy"
+        ],
+        "post-update-cmd": [
+            "SlowProg\\CopyFile\\ScriptHandler::copy"
+        ]
+    },
+    "extra": {
+        "copy-file": {
+            "vendor/joomlavel/storage/template/": "web/fonts/"
+        }
     }
 }
