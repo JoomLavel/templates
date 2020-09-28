@@ -25,7 +25,7 @@
     },
     "extra": {
         "copy-file": {
-            "vendor/joomlavel/templates/storage/templates/": "web/fonts/"
+            "storage/templates/": "../../storage/templates/"
         }
     }
 }
